@@ -9,8 +9,17 @@ Lanka as well as faced economy shocks and social shocks like LTTE war, Ester-att
 ## Model Specification
 The relationship is defined by the following equation; <br>
 <strong> log(Income) = -6.118861 + 0.881608 log(Arrivals) + 0.265151 log(Exchange_rate) -0.003170 Inflation +  0.160563 War - 0.178192 Economy </strong> 
-
-
+<p align ="center">
+<img src = "https://github.com/donlenorardsr-star/SL-Tourism-Income-Analysis/blob/main/model_4.png" width = "500"
+    </p>
+<p align = "center"> <strong> Figure 01: The table of model description</strong> <br>
+  
+### Model Diagnostics 
+Observation 42,43 and 46 were identified as outliers in the cook's distance. But did not remove their, this is ensure the model is not overfitted.
+<p align ="center">
+<img src = "https://github.com/donlenorardsr-star/SL-Tourism-Income-Analysis/blob/main/Rplot.png" width = "500"
+    </p>
+<p align = "center"> <strong> Figure 02: The Normality test </strong>
 
 ## Key Findings
 - The model accuracy is 92.10%, that's mean the model explains 92.10% of the variation in tourism income.
