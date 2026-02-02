@@ -6,6 +6,15 @@ Lanka as well as faced economy shocks and social shocks like LTTE war, Ester-att
 ## Tools 
 - R - ggplot2, ggfortify, tidyverse, cars, tisbble
 
+## Model Specification
+The relationship is defined by the following equation; <br>
+<strong> log(Income) = -6.118861 + 0.881608 log(Arrivals) + 0.265151 log(Exchange_rate) -0.003170 Inflation +  0.160563 War - 0.178192 Economy </strong> 
+
+
+
 ## Key Findings
-Based on the final Double-Log Regression Model,
-- The model accuracy is 92.10%, that's mean 1% 
+- The model accuracy is 92.10%, that's mean the model explains 92.10% of the variation in tourism income.
+- 1.00% increase in tourist arrivals leads to 0.88% increase in tourism income.
+- 1.00% increase in the exchange rate relates with a 0.26% increase in tourism income.
+- The civill war shock and economy shock insignificantly impacted to tourism income.
+
