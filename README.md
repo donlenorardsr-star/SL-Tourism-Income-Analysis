@@ -8,7 +8,7 @@ Lanka as well as faced economy shocks and social shocks like LTTE war, Ester-att
 
 ## Model Specification
 The relationship is defined by the following equation; <br>
-<strong> log(Income) = -6.118861 + 0.881608 log(Arrivals) + 0.265151 log(Exchange_rate) -0.003170 Inflation +  0.160563 War - 0.178192 Economy </strong> 
+<strong> log(Income) = -6.118861 + 0.881608 log(Arrivals) + 0.265151 log(Exchange_rate) +  0.160563 local crisis - 0.178192 global crisis </strong> 
 <p align ="center">
 <img src = "https://github.com/donlenorardsr-star/SL-Tourism-Income-Analysis/blob/main/model_4.png" width = "500"
     </p>
